@@ -5,5 +5,6 @@
 //Profile: https://www.codewars.com/users/yourSolution
 
 function disemvowel(str) {
+    
     return str.replace(/a|i|o|u|e/gi, "");
-  }
+}
