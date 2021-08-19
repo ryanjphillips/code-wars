@@ -40,5 +40,3 @@ const checkVin = (vin) => {
 
     return (reduceArray % 11 === parseInt(VINarray[8]) ? true : false);
   };
-
-  console.log(checkVin('5YJ3E1EA7HF000337'))
